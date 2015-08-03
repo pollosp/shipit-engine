@@ -49,6 +49,7 @@ Shipit provides you with a Rails template. To bootstrap your Shipit installation
 3. Enter your **Client ID**, **Client Secret**, and **GitHub API access token** when prompted. These can be found on your application's GitHub page.
 4. To install the Shipit migrations, run this command: `rake shipit_engine:install:migrations`
 5. To setup the database, run this command: `rake db:setup`
+6. To start shipit run: `foreman start`
 
 <h3 id="configuring-ymls">Configuring <code>shipit.yml</code> and <code>secrets.yml</code></h3>
 
